@@ -7,7 +7,7 @@ from pynput import keyboard
 key_count = 0
 key_press_durations = {}
 time_between_keys = []
-last_key_time = None
+last_key_time = time.time()
 start_time = time.time()
 key_sequences = []
 backspace_count = 0
