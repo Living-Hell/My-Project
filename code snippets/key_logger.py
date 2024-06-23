@@ -15,8 +15,8 @@ backspace_count = 0
 # File to store the data
 csv_file = 'key_press_data.csv'
 
-# User identification
-user_id = 'User123'  # Replace with actual user identification mechanism
+# Prompt for user ID
+user_id = input("Please enter your user ID: ")
 
 def on_press(key):
     global last_key_time, key_count, backspace_count
