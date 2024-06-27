@@ -50,7 +50,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_
 input_dim = X_train.shape[1]
 
 # Size of the encoding layer
-encoding_dim = 32  
+encoding_dim = 32
 
 autoencoder = models.Sequential([
     layers.InputLayer(input_shape=(input_dim,)),
